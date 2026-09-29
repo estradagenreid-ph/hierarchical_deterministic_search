@@ -1,0 +1,7 @@
+streamlit
+streamlit-pdf-viewer
+ollama
+chromadb
+pypdf
+pdfplumber
+numpy

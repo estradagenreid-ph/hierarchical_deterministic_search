@@ -1,1 +1,37 @@
-__pycache__/main.cpython-313.pyc
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+.streamlit/secrets.toml
+credentials.json
+token.json
+*.pem
+*.key
+.pypirc
+
+# Regenerable document index and highlighted output
+/vector_db/
+/active_display_*.pdf
+
+# Put private source documents here; public examples remain tracked
+/private_documents/
+
+# Local editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
